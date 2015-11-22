@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+    function s() {
+        document.getElementById('1').value = "DEF4C208";
+    }
+</script>
+<meta charset="ISO-8859-1">
+        <meta name="viewport" content="width=device-width">
+        <style>
+               
+            [type="button"] 
+            {  
+               font-size:17px  ;
+               width: 80px;
+            }
+            [type="submit"] 
+            {  
+               font-size:17px  ;
+               width: 80px;
+            }
+        </style>
+<title>Shelf</title>
+</head>
+<body bgcolor="black" text="cyan">
+<form action="insert.jsp" method="POST">
+           <center>
+               <br>
+               <h2> Insert Into Book System</h2>
+               <br>
+           <table>
+               <tr>
+               <td> Book Number</td> 
+               <td> <input type ="text" size="20" name="number" id='1' placeholder="Book Number"> </td>
+               </tr>
+               <tr>
+               <td> Book Name</td>
+               <td><input type ="text" size="20" name="name"   placeholder="Book Name"> </td>
+               </tr>
+               <tr>
+               <td> Book Author</td>
+               <td><input type ="text" size="20" name="author" placeholder="Book Author"> </td>
+               </tr>
+           </table>
+           <br>
+               <input type="button" value = "Request" onclick="s()"></input>
+               <br>
+               <br>
+               <input type="submit" value = "Insert"></input>
+               <br>
+               <br>
+               <a href="index.html"><input type ="button" value = "Back"></a>
+               
+          </center>
+          </form>
+          <iframe src="view.jsp" width="100%" height="350"></iframe>
+</body>
+</html>
