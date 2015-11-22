@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Insert</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+               
+            [type="button"] 
+            {  
+               font-size:17px  ;
+               width: 80px;
+            }
+            [type="submit"] 
+            {  
+               font-size:17px  ;
+               width: 80px;
+            }
+        </style>
+    </head>
+    <body>
+       <form action="insert.jsp" method="POST">
+           <center>
+               <br>
+               <h2> Insert Into Book System</h2>
+               <br>
+           <table>
+               <tr>
+               <td> Book Number</td> 
+               <td> <input type ="text" size="20" name="number" placeholder="Book Number"> </td>
+               </tr>
+               <tr>
+               <td> Book Name</td>
+               <td><input type ="text" size="20" name="name"   placeholder="Book Name"> </td>
+               </tr>
+               <tr>
+               <td> Book Author</td>
+               <td><input type ="text" size="20" name="author" placeholder="Book Author" </td>
+               </tr>
+           </table>
+               <br>
+               <input type="submit" value = "Insert"></input>
+               <br>
+               <br>
+               <a href="index.html"><input type ="button" value = "Back"></a>
+          </center>
+    </body>
+</html>
